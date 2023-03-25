@@ -18,5 +18,3 @@
    1. ECS Service
    2. ECS tasks
 
-### Following is the Demo Video
-[ECS with Tearrform and GitHub Actions](./ECS-with_Terraform_demo.mkv)
