@@ -1,8 +1,6 @@
 FROM node:19-slim
 
-WORKDIR app
-
-COPY index.js /app
+COPY index.js app
 
 EXPOSE 80
 
