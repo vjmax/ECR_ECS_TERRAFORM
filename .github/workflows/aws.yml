@@ -53,5 +53,5 @@ jobs:
     - name: Fill in the new image ID in the Amazon ECS task definition
       id: task-def
       run: |
-       aws ecs stop-task --cluster demo-ecs-cluster  --task $(aws ecs list-tasks --cluster demo-ecs-cluster --service demo_ecs_svc --output text --query taskArns[0])
+       aws ecs stop-task --cluster demo-ecs-cluster  --task $(aws ecs list-tasks --cluster demo-ecs-cluster --service demo_ecs_svc)
      
