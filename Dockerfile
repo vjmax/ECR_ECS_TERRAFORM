@@ -1,6 +1,6 @@
 FROM node:19-slim
 
-COPY index.js app
+COPY . .
 
 EXPOSE 80
 
