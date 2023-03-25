@@ -1,6 +1,8 @@
-FROM node:latest
+FROM node:18-alpine
 
-COPY ./ .
+WORKDIR app
+
+COPY index.js /app
 
 EXPOSE 80
 
