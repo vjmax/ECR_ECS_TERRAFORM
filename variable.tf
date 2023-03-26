@@ -103,7 +103,7 @@ variable "app_port" {
 variable "app_count" {
   type        = number
   description = "Number of replicas of the pod"
-  default     = 2
+  default     = 1
 }
 
 variable "ecs_alb_name" {
